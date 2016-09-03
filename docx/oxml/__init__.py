@@ -200,3 +200,7 @@ from .text.run import CT_Br, CT_R, CT_Text
 register_element_cls('w:br', CT_Br)
 register_element_cls('w:r',  CT_R)
 register_element_cls('w:t',  CT_Text)
+
+from .sdt import CT_sdt, CT_sdtContent
+register_element_cls('w:sdt', CT_sdt)
+register_element_cls('w:sdtContent', CT_sdtContent)
